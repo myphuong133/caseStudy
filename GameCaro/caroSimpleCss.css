@@ -1,0 +1,124 @@
+
+    * {
+
+        padding: 0;
+        margin: 0;
+        font-family: 'providence-bold';
+
+
+    }
+
+    @font-face {
+
+        font-family: 'providence-bold';
+        src: url(Hensa.ttf) format('truetype');
+
+    }
+
+    #header {
+
+        position: fixed;
+        background-color: rgb(255, 137, 137);
+        width: 100%;
+        top: 0;
+
+    }
+
+
+    table {
+
+        font-size: larger;
+        border-collapse: collapse;
+        margin: auto;
+        width: max-content;
+    }
+
+    td {
+
+        border: 1px solid black;
+        width: 33px;
+        height: 33px;
+        text-align: center;
+        background-color: aliceblue;
+    }
+
+    td:hover {
+        background-color: yellow;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    button {
+        align-content: center;
+        width: 100%;
+    }
+
+   
+
+    button:hover {
+        background-color: rgba(125, 125, 255, 0.502);
+        color: red;
+    }
+    
+    #create_caro {
+        width: max-content;
+        margin: auto;
+        margin-top: 200px;
+    }
+
+    #setting {
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.463);
+        align-items: center;
+        justify-content: center;
+        display: none;
+
+    }
+
+    #setting .settingForm {
+        position: relative;
+        background-color: white;
+
+    }
+
+    #setting .settingClose {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 7px 12px;
+    }
+
+    #setting .settingClose:hover {
+        font-size: larger;
+        color: red;
+        cursor: pointer;
+    }
+
+    #setting .setting-Header {
+        background-color: aqua;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    #setting .button {
+        background-color: aliceblue;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #setting .button:hover {
+
+        color: red;
+        cursor: pointer;
+        background-color: rgba(125, 125, 255, 0.502);
+    }
